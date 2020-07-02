@@ -1,9 +1,6 @@
 /**
- * Work with sort. Task 13
- * @type {number[]}
+ * Work with Object.keys. Task 14
+ * @type {{css: string, jq: string, js: string}}
  */
-let sortArr = [3, 4, 1, 2, 7];
-sortArr.sort(function(a, b) {
-  return a - b;
-})
-alert(sortArr);
+let obj = {js: 'test', jq: 'hello', css: 'world'};
+alert(Object.keys(obj));
