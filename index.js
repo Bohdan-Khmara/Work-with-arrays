@@ -1,6 +1,6 @@
 /**
- * Work with shift. Task 5
+ * Work with pop. Task 6
  * @type {string[]}
  */
 let arr = ['js', 'css', 'jq'];
-arr.shift();
+arr.pop();
