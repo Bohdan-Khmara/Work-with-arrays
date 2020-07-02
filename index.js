@@ -1,7 +1,7 @@
 /**
- * Work with slice. Task 8
+ * Work with splice. Task 9
  * @type {number[]}
  */
 let arr = [1, 2, 3, 4, 5];
-let arr2 = arr.slice(-2);
-alert(arr2);
+let removed = arr.splice(1, 2);
+alert(arr);
