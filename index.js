@@ -1,8 +1,9 @@
 /**
- * Work with splice. Task 12
+ * Work with sort. Task 13
  * @type {number[]}
  */
-let arr = [1, 2, 3, 4, 5];
-let removedar = arr.splice(1, 0, 'a', 'b');
-arr.splice(6, 1, 'c', 5, 'e');
-alert(arr);
+let sortArr = [3, 4, 1, 2, 7];
+sortArr.sort(function(a, b) {
+  return a - b;
+})
+alert(sortArr);
