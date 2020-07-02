@@ -1,7 +1,7 @@
 /**
- * Work with splice. Task 10
+ * Work with splice. Task 11
  * @type {number[]}
  */
 let arr = [1, 2, 3, 4, 5];
-let removed = arr.splice(1, 3);
-alert(removed);
+let addValue = arr.splice(3, 0, 'a', 'b');
+alert(arr);
