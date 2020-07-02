@@ -1,6 +1,7 @@
 /**
- * Work with pop. Task 6
- * @type {string[]}
+ * Work with slice. Task 7
+ * @type {number[]}
  */
-let arr = ['js', 'css', 'jq'];
-arr.pop();
+let arr = [1, 2, 3, 4, 5];
+let arr2 = arr.slice(0, 3);
+alert(arr2);
